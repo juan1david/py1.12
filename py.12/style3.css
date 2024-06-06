@@ -1,0 +1,105 @@
+.img-fluid{
+    max-width: 100%;  
+    height: auto;
+} 
+
+.logo {
+    height: 52px;
+    width: 52px; 
+}
+
+#d1{
+    background-color: aqua;
+    height: auto;
+}
+
+#d2{
+    background-color: aquamarine;
+    height: auto;
+}
+
+#d3{
+    background-color: blueviolet;
+    height: auto;
+}
+
+#d4{
+    background-color: rgb(236, 174, 92);
+    height: auto;
+}
+
+#d5{
+    background-color: rgb(50, 49, 68);
+    height: auto;
+}
+
+#d6{
+    background-color: rgb(139, 255, 31);
+    height: auto;
+}
+
+h5{
+    color: rgb(128, 0, 0);
+}
+
+p{
+    color: black;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.c{
+    width: 30px;
+    height: 30px;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parallax {
+    background-image: url('./descarga\ \(9\).jfif');
+    min-height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    height: 500px;
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+.card-img-top {
+    padding: 10px;
+    width: 200px;
+    height: 140px;
+}
+
+.card{
+    width: auto;
+    height: 200px;
+    background-color:rgb(143, 165, 165);
+}
+
+.col-sm-12{
+    padding: 80px;
+}
+
+.col-sm-12{
+    color: aliceblue;
+}
